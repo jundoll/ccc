@@ -1,0 +1,12 @@
+Package: ccc
+Type: Package
+Title: ccc for long
+Version: 0.0.1
+Date: 2015-08-13
+Author: Atsushi Yoshida (@jun2_3)
+Maintainer: jundoll <jundoll33@gmail.com>
+Description: ccc for long
+License: GPL-2
+LazyData: TRUE
+Import:
+  pforeach
