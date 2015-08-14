@@ -1,9 +1,9 @@
-#' cccのオブジェクトを描画する
+#' Plot ccc
 #'
-#' @param ccc cccのオブジェクト
-#' @param add 図に追加するかどうか
-#' @param pfine 錐の明瞭さ。錐の弧の点の数 = 1+pfine*rho(度) (切り上げ)
-#' @param ... polygonのその他引数。色などを指定する
+#' @param ccc ccc's object
+#' @param add If TRUE, it added the current picture. By default, FALSE.
+#' @param pfine Delicacy of cone. delicacy = 1+pfine*rho(degree) (rounded up)
+#' @param ... The other options
 #'
 #' @export
 plot_ccc <- function(ccc, add = FALSE, xi = "n",  pfine = 1, ...) {

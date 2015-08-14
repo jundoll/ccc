@@ -2,20 +2,20 @@
 % Please edit documentation in R/plot_ccc.R
 \name{plot_ccc}
 \alias{plot_ccc}
-\title{cccのオブジェクトを描画する}
+\title{Plot ccc}
 \usage{
 plot_ccc(ccc, add = FALSE, xi = "n", pfine = 1, ...)
 }
 \arguments{
-\item{ccc}{cccのオブジェクト}
+\item{ccc}{ccc's object}
 
-\item{add}{図に追加するかどうか}
+\item{add}{If TRUE, it added the current picture. By default, FALSE.}
 
-\item{pfine}{錐の明瞭さ。錐の弧の点の数 = 1+pfine*rho(度) (切り上げ)}
+\item{pfine}{Delicacy of cone. delicacy = 1+pfine*rho(degree) (rounded up)}
 
-\item{...}{polygonのその他引数。色などを指定する}
+\item{...}{The other options}
 }
 \description{
-cccのオブジェクトを描画する
+Plot ccc
 }
 

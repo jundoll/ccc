@@ -2,23 +2,23 @@
 % Please edit documentation in R/all_make.R
 \name{all_make}
 \alias{all_make}
-\title{初期状態からplot直前までの加工全部}
+\title{Undescribed}
 \usage{
 all_make(samples, coneN, height, azimuth, control)
 }
 \arguments{
-\item{samples}{標本点}
+\item{samples}{Sample}
 
-\item{coneN}{錐の数}
+\item{coneN}{The number of sample}
 
-\item{height}{錐の大きさ}
+\item{height}{The size of cone}
 
-\item{azimuth}{錐の最小の角度}
+\item{azimuth}{The lower angle of cone}
 
-\item{control}{追加オプション}
+\item{control}{options}
 }
 \description{
-初期状態からplot直前までの加工全部
+Undescribed
 }
 \examples{
 samples <- data.frame(x = rnorm(10), y = rnorm(10))

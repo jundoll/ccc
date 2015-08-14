@@ -1,10 +1,10 @@
-#' 初期状態からplot直前までの加工全部
+#' Undescribed
 #'
-#' @param samples 標本点
-#' @param coneN 錐の数
-#' @param height 錐の大きさ
-#' @param azimuth 錐の最小の角度
-#' @param control 追加オプション
+#' @param samples Sample
+#' @param coneN The number of sample
+#' @param height The size of cone
+#' @param azimuth The lower angle of cone
+#' @param control options
 #'
 #' @examples
 #' samples <- data.frame(x = rnorm(10), y = rnorm(10))
