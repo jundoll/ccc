@@ -4,9 +4,16 @@
 \alias{sample_plot}
 \title{Plot generated sample}
 \usage{
-sample_plot(dat, ...)
+sample_plot(dat, col = 4, pch = 16, ...)
 }
 \description{
 Plot generated sample
+}
+\examples{
+samples <- sample_make(pattern = 1)
+dat <- all_make(samples, 100, 1/2, pi/5)
+sample_plot(samples)
+plot_ccc(dat, add = TRUE, xi = "black", col = "white", border = "black")
+sample_lines(samples)
 }
 

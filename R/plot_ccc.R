@@ -24,7 +24,7 @@ plot_ccc <- function(ccc, add = FALSE, xi = "n",  pfine = 1, ...) {
       arc <- list(x = ccc$x[i] + cos(theta) * height, y = ccc$y[i] + sin(theta) * height)
       arc <- list(x = c(ccc$x[i], arc$x, ccc$x[i]), y = c(ccc$y[i], arc$y, ccc$y[i]))
       polygon(x = arc$x, y = arc$y, ...)
-      segments(ccc$x[i], ccc$y[i], ccc$x[i] + cos(ccc$xi[i]) * height, ccc$y[i] + cos(ccc$xi[i]) * height, col = xi)
+      segments(ccc$x[i], ccc$y[i], ccc$x[i] + cos(ccc$xi[i]) * height, ccc$y[i] + sin(ccc$xi[i]) * height, col = xi)
     }
   }
   invisible()

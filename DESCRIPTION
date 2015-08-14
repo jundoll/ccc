@@ -9,4 +9,5 @@ Description: ccc for long
 License: GPL-2
 LazyData: TRUE
 Import:
-  pforeach
+  pforeach,
+  spatstat
