@@ -6,6 +6,11 @@
 \usage{
 sample_lines(dat, ...)
 }
+\arguments{
+\item{dat}{dat}
+
+\item{...}{option}
+}
 \description{
 line xi
 }
