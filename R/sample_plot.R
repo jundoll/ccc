@@ -15,8 +15,3 @@ sample_plot <- function(dat, col = 4, pch = 16, ...) {
   rect(xrange[1], yrange[1], xrange[2], yrange[2], col = 'orange', border = 'white')
   points(dat, col = col, pch = pch, ...)
 }
-#' line xi
-sample_lines <- function(dat, ...) {
-  info <- attr(dat, "sample_info")
-  lines(info$xarea, info$yarea, ...)
-}
