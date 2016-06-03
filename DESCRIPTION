@@ -1,6 +1,6 @@
 Package: ccc
 Type: Package
-Title: ccc for long
+Title: Implementation of the cone-convex hull by complement
 Version: 0.0.1
 Date: 2015-08-13
 Author: Atsushi Yoshida (@jun2_3)
