@@ -5,7 +5,7 @@ Version: 0.0.1
 Date: 2015-08-13
 Author: Atsushi Yoshida (@jun2_3)
 Maintainer: jundoll <jundoll33@gmail.com>
-Description: This package computes the cone-convex hull by complement (ccc-hull) of a given sample of points in the plane. The ccc-hull is a generalized convex hull, and its envelope consists of the set of cones. The programming computes appropriate cones for the given sample of points fast. The package also includes a function that plots the result of the ccc-hull. 
+Description: This package computes the cone-convex hull by complement (ccc-hull) of a given sample of points in the plane. The ccc-hull is a generalized convex hull, and its envelope consists of the set of cones. The program computes appropriate cones for the given sample of points fast. The package also includes a function that plots the result of the ccc-hull. 
 License: GPL-2
 LazyData: TRUE
 Import:
